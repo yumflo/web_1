@@ -1,0 +1,84 @@
+
+
+/*Back to Design Shack*/
+#back {
+	height: 25px;
+	background-color: #383131;
+	color: white;
+	text-align: center;
+	line-height: 25px;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 12px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+#back a {
+	color: white;
+	text-decoration: none;
+}
+
+#back a:hover {
+	color: #b9e1f7;
+}
+
+#back:hover {
+	height: 50px;
+	line-height: 50px;
+	background-color: #000;
+}
+
+/*Text Styles*/
+
+#headline {
+	text-align: center;
+	margin: 20px 0;
+}
+
+h1 {
+	font-family: 'Arvo', Georgia, Times, serif;
+	font-size: 50px;
+	line-height: 65px;
+}
+ 
+p {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+/*Gallery Styles*/
+
+#gallery {
+	width:900px;
+	height: 630px;
+	margin: 0 auto;
+	padding: 10px;
+	background: #383131;
+}
+
+ul {
+	list-style-type: none;
+	position: absolute;
+	width: 950px;
+}
+
+#gallery ul li {
+	float: left;
+	margin: 10px;
+	background: white;
+	height: 100px;
+	width: 100px;
+}
+
+#gallery ul li:hover {
+	border: 3px solid white;
+	margin: 7px;
+	cursor: pointer;
+}
+
+#gallery ul li img{
+	height: 100px;
+	width: 100px;
+}
